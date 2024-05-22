@@ -5,7 +5,7 @@
     position: relative;
 }  
 .main .nav{
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: space-between;
     font-size: 22px;

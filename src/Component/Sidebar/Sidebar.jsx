@@ -5,7 +5,7 @@ import { assets } from "../../assets/assets";
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);    
 
-  return (
+  return (   
     <div className="sidebar">
       <div className="top">
         <img onClick={()=>setExtended(prev=>!prev)} className="menu" src={assets.menu_icon} alt="" />
